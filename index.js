@@ -48,6 +48,7 @@ function winLose (currentLevel) {
 function nextSequence() {
   userClickedPattern = [];
   level++;
+  $("#level-title").text("Level " + level);
 //To get a random number 0-3 for indexing the colour array:
   var randomNumber = Math.floor(Math.random() * 4);
 //Picking a colour at random using the random index variable:
